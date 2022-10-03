@@ -1,0 +1,341 @@
+<?php $hal = "pengiriman"; ?>
+@extends('layouts.admin.master')
+@section('title', 'PENGIRIMAN')
+
+@section('css')
+<style>
+.example-modal .modal {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  display: block;
+  z-index: 1;
+}
+
+.example-modal .modal {
+  background: transparent !important;
+}
+
+/* table, th {
+  border: 0.1px solid black !important;
+} */
+
+/* td {
+  border: 0.1px solid black !important;
+} */
+</style>
+@endsection
+
+@section('content')
+<section class="content">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box">
+        <div class="box-header">
+          <h3 class="box-title">PENGIRIMAN</h3>
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-toggle="collapse" title="Search" data-target="#form-search"> <i class="fa fa-search"></i> Search</button>
+          </div>
+        </div>
+        <div class="box-body collapse" id="form-search">
+          <form class="form-horizontal form-tanggal-search" method="POST" autocomplete="off">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="col-md-2">Tanggal</label>
+                <div class="col-md-5">
+                  <input type="text" name="search_tanggal" class="form-control" value="{{date('d-m-Y')}}">
+                </div>
+                <div class="col-md-4">
+                  <a href="javascript:;" style="margin-bottom:20px;" class="card-body-title btn-search-tanggal"><button class="btn btn-success" type="button"><i class="fa fa-search"></i> Search</button></a>
+                  <a href="javascript:;" style="margin-bottom:20px;" class="card-body-title btn-reset-tanggal"><button class="btn btn-warning" type="button"><i class="fa fa-undo"></i> Reset</button></a>
+                </div>
+              </div>
+            </div>
+          </form>
+      </div>
+        <!-- <a  style="margin-bottom:20px;margin-left:10px;" class="card-body-title btn btn-primary btn_tambah"><i class="fa  fa-plus-square-o"></i> Tambah</a> -->
+        <?php echo $gudang['tombol_create'];?>
+        <!-- /.box-header -->
+        <div class="box-body table-responsive">
+          <table id="datatable1" class="table table-bordered table-striped" width="100%">
+            <thead>
+              <?php if($gudang['user_group'] == 1 || $gudang['user_group'] == 6){?>
+              <tr>
+                <th style="width:3%">No #</th>
+                <th style="width:16%">No Pengiriman </th>
+                <th style="width:16%">Gudang Awal</th>
+                <th style="width:10%">tujuan</th>
+                <th style="width:10%">Tanggal</th>
+                <th style="width:10%">Status</th>
+                <th style="width:15%">Total</th>
+                <th style="width:10%">Action</th>
+              </tr>
+            <?php }else{?>
+              <tr>
+                <th style="width:5%">No #</th>
+                <th style="width:20%">No Pengiriman </th>
+                <th style="width:20%">Gudang Awal</th>
+                <th style="width:20%">tujuan</th>
+                <th style="width:10%">Tanggal</th>
+                <th style="width:10%">Status</th>
+                <th style="width:15%">Action</th>
+              </tr>
+            <?php } ?>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+        <!-- /.box-body -->
+      </div>
+    </div>
+    </div>
+  </section>
+@include('admin.pengiriman.form1')
+@include('admin.pengiriman.detail1')
+@endsection
+@section('js')
+<link rel="stylesheet" type="text/css" href="{{asset('public/js/daterangepicker/daterangepicker.css')}}" />
+<script type="text/javascript" src="{{asset('public/js/daterangepicker/moment.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/js/daterangepicker/daterangepicker.js')}}"></script>
+<script type="text/javascript">
+  $(function () {
+    $('.tanggal').datepicker({
+      //format:'yyyy-mm-dd',
+      format:'dd-mm-yyyy',
+      autoclose:true
+    });
+    $('.js-example-basic-single').select2({
+    dropdownParent: $(".modal")
+  });
+    $('input[name=search_tanggal]').daterangepicker({
+   locale: {
+      format: 'DD-MM-YYYY',
+      separator: "  s.d. ",
+    }
+  });
+    table = $('#datatable1').DataTable({
+      "processing" : true,
+      "ajax" : {
+        "url" : "{{ route('data_pengiriman') }}",
+        "type" : "GET"
+      },
+      columnDefs: [{targets: 6,className: 'text-right'}]
+    });
+  $('.btn_tambah').on('click',function(e){
+    // alert('as');
+    $('.form_connectio1n')[0].reset();
+    $('.d').html('<h4 class="modal-title">Tambah Gudang</h4>');
+    $('#pengiriman').val('').trigger('change.select2');
+    $('#crud').val('tambah');
+    $('#modal-form').modal('show');
+  });
+
+  $(document).on("click","#btn_edit",function() {
+    $('.d').html('<h4 class="modal-title">Edit Pengiriman</h4>');
+    $('#crud').val('edit');
+    var id = $(this).data('id');
+    var gudang = $(this).data('gudang_awal');
+    var tujuan = $(this).data('gudang_tujuan');
+    var kode = $(this).data('kode_pengirimana');
+    var tanggal = $(this).data('tanggal');
+    var id_pengiriman = $(this).data('id_pengiriman');
+    var pengirim = $(this).data('pengirim');
+    var pengiriman = '<option value="'+id_pengiriman+'">'+pengirim+'</option>';
+    var keterangan = $(this).data('keterangan');
+    
+    $('#id').val(id);
+    $('#tanggal').val(tanggal);
+    $('#kode').val(kode);
+    $('#pengiriman').html(pengiriman);
+    $('#gudang_awal').val(gudang).trigger('change');
+    $('#tujuan').val(tujuan).trigger('change');
+    $('#keterangan').val(keterangan);
+
+    $('#modal-form').modal('show');
+  });
+
+  $(document).on("click","#btn_detail",function() {
+    $('.detail_d').html('<h4 class="modal-title">Detail Pengiriman</h4>');
+    $('#crud').val('edit');
+    var id = $(this).data('id');
+    var gudang = $(this).data('gudang');
+    var tujuan = $(this).data('tujuan');
+    var kode = $(this).data('kode_pengirimana');
+    var tanggal = $(this).data('tanggal');
+    var id_pengiriman = $(this).data('id_pengiriman');
+    var pengirim = $(this).data('pengirim');
+    var pengiriman = '<option value="'+id_pengiriman+'">'+pengirim+'</option>';
+    var keterangan = $(this).data('keterangan');
+    
+    $('#detail_id').val(id);
+    $('#detail_tanggal').val(tanggal);
+    $('#detail_kode').val(kode);
+    $('#detail_pengiriman').val(pengirim);
+    $('#detail_gudang_awal').val(gudang);
+    $('#detail_tujuan').val(tujuan);
+    $('#detail_keterangan').val(keterangan);
+
+    $('#modal-form_detail').modal('show');
+  });
+
+   $('#pengiriman').select2({
+            placeholder: "Pilih...",
+            // minimumInputLength: 2,
+            ajax: {
+                url: 'select2_pengiriman',
+                dataType: 'json',
+                data: function (params) {
+                  // console.log();
+                    return {
+                        q: $.trim(params.term)
+                    };
+                },
+                processResults: function (data) {
+                      var results = [];
+                      $.each(data, function(index,item){
+                        results.push({
+                          id:item.id,
+                          nama:item.nama,
+                          nohp:item.nohp,
+                          text:item.nama
+                        });
+                      });
+                      return{
+                        results:results
+                      };
+                        
+                },
+                cache: true
+            }
+    
+  });
+  
+  $(document).on("click","#btn_hapus",function() {
+    var id = $(this).data('id');
+    swal({
+          title: "Hapus data?",
+          text: "Anda akan menghapus data ini",
+          type: "warning",
+          showCancelButton: true,
+          confirmButtonClass: "btn-warning",
+          confirmButtonText: 'Ya',
+          cancelButtonText: "Tidak",
+      },function(){      
+          $.ajax({
+              url: "{{ url('pengiriman_hapus')}} ",
+              type: 'post',
+              data: {id : id},
+              headers : {
+                  'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+              },
+              success: function(respon){
+                if(respon.status == 1){
+                  swal("", "Data berhasil dihapus", "success");
+                }else{
+                  swal("", "Data gagal dihapus", "error");
+                }
+                table.ajax.reload();
+            }
+          })
+      })
+  });
+
+  $('#modal-form form').validator().on('submit', function(e){
+    if(!e.isDefaultPrevented()){
+      var id = $('#id').val();
+
+      $.ajax({
+        url : "{{ route('pengiriman.store') }}",
+        type : "POST",
+        data : $('#modal-form form').serialize(),
+        success : function(data){
+          //$('#modal-form').modal('hide');
+          // table.ajax.reload();
+          //location.reload();
+          if(data.status == 1){
+            swal({
+                title:"Data Sukses Simpan",
+                text:"Data berhasil disimpan",
+                type:"success",
+                confirmButtonText:"Okay"
+            },function(){
+                table.ajax.reload();
+                $('#modal-form').modal('hide');
+            });
+          }else if(data.status == 2){
+            swal({
+                title:"Data Sukses Update",
+                text:"Data berhasil diupdate",
+                type:"success",
+                confirmButtonText:"Okay"
+            },function(){
+                table.ajax.reload();
+                $('#modal-form').modal('hide');
+            });
+          }else{
+            swal({
+                title:"Data Gagal Simpan",
+                text:"Data gagal disimpan",
+                type:"error",
+                confirmButtonText:"Okay"
+            },function(){
+                table.ajax.reload();
+                $('#modal-form').modal('hide');
+            });
+          }
+        },
+        error : function(){
+          //alert("Tidak dapat menyimpan data!");
+          swal({
+                title:"Data Gagal Simpan",
+                text:"Data gagal disimpan",
+                type:"error",
+                confirmButtonText:"Okay"
+            },function(){
+                table.ajax.reload();
+                $('#modal-form').modal('hide');
+            });
+        }
+      });
+      return false;
+    }
+  });
+
+  });
+
+  $(".btn-search-tanggal").on("click",function(){
+    var tanggal = $("[name=search_tanggal]").val();
+    var url = '<?=$hal?>_searchtanggal';
+    $('#datatable1').DataTable().clear();
+    $('#datatable1').DataTable().destroy();
+    table_detail = $('#datatable1').DataTable({
+    "processing" : true,
+    "ajax" : {
+      "url" : "{{url('pengiriman_searchtanggal')}}",
+      "data" : {tanggal:tanggal}
+    },
+    "columnDefs": [
+            {targets: 6,className: 'text-right'}
+          ],
+  });
+
+});
+
+$(".btn-reset-tanggal").on("click",function(){
+    $('#datatable1').DataTable().clear();
+    $('#datatable1').DataTable().destroy();
+    table = $('#datatable1').DataTable({
+      "processing" : true,
+      "ajax" : {
+        "url" : "{{ url('data_pengiriman') }}",
+        "type" : "GET"
+      },
+      columnDefs: [{targets: 6,className: 'text-right'}]
+    });
+});
+
+  </script>
+@endsection

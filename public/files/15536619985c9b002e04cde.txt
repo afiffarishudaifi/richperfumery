@@ -1,0 +1,1 @@
+10.10.10.10/login?username=newhotspot&password=biznet&uip=&client_mac=gg:gg:gg:gg:gg:gg&ssid=&redirect=true

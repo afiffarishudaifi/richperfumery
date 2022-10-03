@@ -1,0 +1,186 @@
+[27-Apr-2021 09:00:54 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:00:54 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:00:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:01:14 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:01:14 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:01:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:04:33 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:04:33 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:04:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:05:32 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:05:32 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:05:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:10:52 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:10:52 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:10:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:11:08 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:11:08 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:11:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:12:23 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:12:23 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:12:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:35:26 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:35:26 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:35:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:36:53 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:36:53 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:36:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:38:47 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:38:47 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:38:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:40:43 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:40:43 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:40:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:41:49 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:41:49 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:41:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:43:24 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:43:24 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:43:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:44:29 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:44:29 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:44:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:45:02 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:45:02 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:45:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:45:16 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:45:16 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:45:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:46:44 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:46:44 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:46:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:49:32 UTC] PHP Notice:  Undefined index: id_barang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 26
+[27-Apr-2021 09:49:32 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:49:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:54:47 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:54:47 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:54:47 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:54:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 134
+[27-Apr-2021 09:55:40 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:55:40 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:55:40 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:01 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:01 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:01 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:03 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:03 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:03 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:18 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:18 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:18 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:20 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:20 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:20 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:20 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:20 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:20 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:56:21 UTC] PHP Notice:  Array to string conversion in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 32
+[27-Apr-2021 09:57:07 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:57:07 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[27-Apr-2021 09:58:07 UTC] PHP Notice:  Undefined index: id_gudang in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 4
+[27-Apr-2021 09:58:07 UTC] PHP Notice:  Undefined index: tanggal in /home/ketjubun/public_html/richperfumery/sim/api/get_closingstruk.php on line 5
+[22-Nov-2021 13:25:20 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[22-Nov-2021 13:25:20 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[22-Nov-2021 13:25:20 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 10:27:48 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[20-Dec-2021 10:27:48 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[20-Dec-2021 10:27:48 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 10:50:50 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[20-Dec-2021 10:50:50 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[20-Dec-2021 10:50:50 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 12:32:38 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 12:32:38 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 12:32:38 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 12:32:46 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[20-Dec-2021 12:32:46 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[20-Dec-2021 12:32:46 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 13:55:49 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 13:55:56 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[20-Dec-2021 13:55:56 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[20-Dec-2021 13:55:56 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[20-Dec-2021 14:49:29 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[27-Dec-2021 10:52:29 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[27-Dec-2021 10:52:29 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[27-Dec-2021 10:52:29 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[27-Dec-2021 10:52:31 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[27-Dec-2021 10:52:31 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[27-Dec-2021 10:52:31 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[27-Dec-2021 11:09:49 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[27-Dec-2021 11:09:54 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[27-Dec-2021 11:09:54 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[27-Dec-2021 11:09:54 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[27-Dec-2021 12:31:26 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[27-Dec-2021 12:31:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[27-Dec-2021 12:31:26 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[28-Dec-2021 12:00:28 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 34
+[28-Dec-2021 12:00:28 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 45
+[28-Dec-2021 12:00:28 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 55
+[28-Dec-2021 12:00:28 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 55
+[28-Dec-2021 12:00:28 Asia/Jakarta] PHP Notice:  Undefined variable: nama_pelanggan in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 80
+[28-Dec-2021 12:00:28 Asia/Jakarta] PHP Notice:  Undefined variable: no_member in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 81
+[28-Dec-2021 12:00:28 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 88
+[30-Dec-2021 10:55:12 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2013): Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 104 in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 10:55:12 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[30-Dec-2021 10:55:12 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[30-Dec-2021 11:04:10 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[30-Dec-2021 11:04:17 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:04:17 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[30-Dec-2021 11:04:17 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[30-Dec-2021 11:15:26 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2013): Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 104 in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:15:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:15:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:15:30 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:15:30 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:15:30 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:15:35 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:15:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:15:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:26:19 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:26:19 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:26:19 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:26:21 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:26:21 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:26:21 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:26:23 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:26:23 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:26:23 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:35:39 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:35:39 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:35:39 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:35:42 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:35:42 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:35:42 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:40:16 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:40:16 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:40:16 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:40:17 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:40:17 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:40:17 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:40:19 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:40:19 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:40:19 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 11:40:21 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 11:40:21 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 36
+[30-Dec-2021 11:40:21 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/insert_stok_opname.php on line 43
+[30-Dec-2021 12:08:29 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 12:08:29 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[30-Dec-2021 12:08:29 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[30-Dec-2021 12:13:23 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to MySQL server on 'ataris-db' (115) in /home/ketjubun/public_html/richperfumery/sim/api/connection.php on line 6
+[30-Dec-2021 12:13:23 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 57
+[30-Dec-2021 12:13:23 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[30-Dec-2021 12:29:41 Asia/Jakarta] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/ketjubun/public_html/richperfumery/sim/api/get_detail_persediaan.php on line 62
+[31-Dec-2021 15:09:39 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 34
+[31-Dec-2021 15:09:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 45
+[31-Dec-2021 15:09:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 55
+[31-Dec-2021 15:09:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 55
+[31-Dec-2021 15:09:39 Asia/Jakarta] PHP Notice:  Undefined variable: nama_pelanggan in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 80
+[31-Dec-2021 15:09:39 Asia/Jakarta] PHP Notice:  Undefined variable: no_member in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 81
+[31-Dec-2021 15:09:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ketjubun/public_html/richperfumery/sim/api/get_struk.php on line 88

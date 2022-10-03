@@ -1,0 +1,146 @@
+ <?php
+
+class Pdf extends PDF_MC_Table{
+	//Page header
+	//public $kas_masuk,$tgl1,$tgl2;
+	public $width_p = 148, $height_p = 210, $head = 0;
+	function __construct() {
+		//set Page 
+		parent::__construct('P','mm',array($this->width_p , $this->height_p));
+        
+    }
+	function Header(){
+	    if($this->PageNo() == 1){		
+                
+                $this->image(public_path('richperfumery.png'),5,5,20,10,'PNG');
+                $this->setFont('Arial','',8);
+                $this->setFillColor(255,255,255);
+                $this->setTextColor(0,0,0);
+                $this->setXY($this->GetX()+20,$this->GetY()-1);
+                $this->SetWidths(array($this->width_p*30/100));
+                $this->SetAligns(array('C')); 
+                $this->Row_noborder(array($this->rich->nama));               
+                //$this->cell(20,5,$this->rich->nama,0,1,'C',1);
+                $this->setXY($this->GetX()+20,$this->GetY()-1);
+                $this->Row_noborder(array($this->rich->alamat.', '.$this->rich->telp),4);
+                //$this->cell(20,5,$this->rich->alamat,0,1,'C',1);
+
+                $this->setFont('Arial','',12);
+                $this->setFillColor(255,255,255);
+                $this->setTextColor(0,0,0);
+                $this->setXY($this->GetX(),$this->GetY());
+                $this->cell(20,6.5,'NOTA',0,0,'L',1);
+                $this->setFont('Arial','',9);
+                $this->setFillColor(0,0,0);
+                $this->setTextColor(255,255,255); 
+                $this->setXY($this->GetX(),$this->GetY()+1);
+                $this->cell(7,4,'No.',1,0,'L',1);
+                $this->setFillColor(255,255,255);
+                $this->setTextColor(0,0,0); 
+                $this->cell(20,4,$this->data->no_faktur,1,1,'L',1); 
+                $this->setFillColor(0,0,0);
+                $this->setTextColor(255,255,255); 
+                $this->cell(7,6,'Tgl.',1,0,'L',1); 
+                $this->setFillColor(255,255,255);
+                $this->setTextColor(0,0,0);
+                $this->cell(40,6,tgl_full($this->data->tanggal,''),1,1,'L',1);
+                $this->setFillColor(0,0,0);
+                $this->setTextColor(255,255,255); 
+                $this->setXY($this->GetX()+80,$this->GetY()-20);
+                $this->SetWidths(array($this->width_p*30/100));
+                $this->SetAligns(array('C'));
+                $this->row_draw(array('KEPADA YTH.'));
+                $this->SetAligns(array('J'));
+                $this->setX($this->GetX()+80);
+                $this->setFillColor(255,255,255);
+                $this->setTextColor(0,0,0);
+                $this->Row_bawahputus(array($this->data->nama_pelanggan));
+                $this->setX($this->GetX()+80);
+                $this->Row_bawahputus(array($this->data->alamat_pelanggan));
+                $this->setX($this->GetX()+80);
+                $this->Row_atasputus(array($this->data->telp_pelanggan));
+            }
+            if($this->PageNo() != 0){   
+                $this->setXY($this->GetX(),$this->GetY()+$this->height_p*2/100);
+                $this->setFont('arial','B', 10);
+                $this->setFillColor(0,0,0);
+                $this->setTextColor(255,255,255); 
+                $this->SetWidths(array($this->width_p*12/100, $this->width_p*48/100, $this->width_p*17/100, $this->width_p*17/100));
+                $this->SetAligns(array('C', 'L', 'L', 'L'));
+                $this->Row_draw(array('Jml','Nama Produk','Poin','Total Poin'));
+
+                $this->SetAligns(array('C', 'L', 'R', 'R'));
+        }
+				
+	}
+	
+	function Content()
+	{
+		$this->setFont('Arial','',9);
+        $this->SetWidths(array($this->width_p*12/100, $this->width_p*48/100, $this->width_p*17/100, $this->width_p*17/100));
+        $this->SetAligns(array('C', 'L', 'R', 'R'));
+        if(count($this->detail) > 0){
+		    foreach($this->detail as $d){
+		        $this->row(array($d->jumlah." ".$d->inisial_satuan, $d->nama_produk, format_angka($d->poin), format_angka($d->total_poin)));
+		    }
+		}
+	    $count = 17-(count($this->detail));
+	    for($no=0;$no<$count;$no++){
+	    	$this->row(array('','','',''));
+	    }
+
+        $this->SetWidths(array($this->width_p*60/100, $this->width_p*17/100));
+        $this->SetAligns(array('L', 'R'));
+        $this->Row_noborder(array('','Total Poin'));
+        $this->setXY($this->GetX()+$this->width_p*77/100,$this->GetY()-5);
+        $this->SetWidths(array($this->width_p*17/100));
+        $this->SetAligns(array('R'));
+        $this->Row(array(format_angka($this->data->total_redeem)));
+
+        $this->SetWidths(array($this->width_p*60/100, $this->width_p*17/100));
+        $this->SetAligns(array('L', 'R'));
+        $this->Row_noborder(array('','Metode Bayar'));
+        $this->setXY($this->GetX()+$this->width_p*77/100,$this->GetY()-5);
+        $this->SetWidths(array($this->width_p*17/100));
+        $this->SetAligns(array('R'));
+        $this->Row(array('Redeem'));
+
+
+        $this->SetWidths(array($this->width_p*60/100, $this->width_p*17/100));
+        $this->SetAligns(array('L', 'R'));
+        $this->Row_noborder(array('','Tagihan Rp.'));
+        $this->setXY($this->GetX()+$this->width_p*77/100,$this->GetY()-5);
+        $this->SetWidths(array($this->width_p*17/100));
+        $this->SetAligns(array('R'));
+        $this->Row(array(format_angka(0)));
+        
+
+	}
+	
+	function Footer()
+	{
+		//Arial italic 9
+        $this->setXY(-74,-10);
+		$this->SetFont('Arial','B',9);
+        $this->setFillColor(255,255,255);
+        $this->setTextColor(0,0,0); 
+        $this->cell(5,5,$this->PageNo(),0,1,'C',true);
+	}
+}
+
+$Pdf = new Pdf();
+
+$Pdf->data          = $data['data'];
+$Pdf->detail        = $data['detail'];
+$Pdf->rich          = $data['rich'];
+
+$Pdf->SetAutoPageBreak(true ,15);
+$Pdf->SetMargins(5,5,5);
+$Pdf->AliasNbPages();
+$Pdf->AddPage();
+$Pdf->SetFont('Arial','',11);
+$Pdf->Content();
+$Pdf->SetTitle("Cetak Nota - ".$data['data']->no_faktur);
+$Pdf->Output("Cetak Nota - ".$data['data']->no_faktur.".pdf", "I");
+
+?>

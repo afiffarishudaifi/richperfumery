@@ -1,0 +1,140 @@
+<?php
+<<<<<<< HEAD
+=======
+>>>>>>> b2a66988181193bf57cabda6462cc66966ece7ae
+require_once APPPATH.'/libraries/Code128.php';
+class PDF extends PDF_Code128
+{
+	//Page header
+	function Header()
+	{
+		 // $this->Image(base_url("assets/img/vector-lab.jpg"), 10, 25,'20','20','jpeg');
+	}
+	function Content($data,$nip,$nama)
+	{
+		<<<<<<< HEAD
+		$this->Code128(5,5,"nada",45,13);
+		=======
+		$this->Code128(165,15,$data[0]['NO_BUKTI_CETAK'],20,5);
+		$this->setXY(10,200);
+			//	$this->cell(190,15,$data[0]['NO_BUKTI_CETAK'] ,0,1,'C',0);
+		>>>>>>> b2a66988181193bf57cabda6462cc66966ece7ae
+		$tgl_now=date('d-m-Y');
+		$this->setXY(10,10);
+		$this->setFont('Arial','B',14);
+		$this->setFillColor(255,255,255);
+		$this->cell(100,5,'PENERIMAAN HARIAN PBB TAHUN 2018' ,0,1,'C',1);
+		$this->Ln();
+		$this->setFont('Arial','B',10);
+		$this->cell(40,6,'NIP Pemungut Pajak' ,0,0,'L',0);
+		$this->cell(50,6,': '.$nip ,0,0,'L',0);
+		$this->cell(85,6,$data[0]['NO_BUKTI_CETAK'] ,0,1,'R',0);
+		$this->setFont('Arial','B',10);
+		$this->cell(40,6,'Nama Pemungut Pajak' ,0,0,'L',1);
+		$this->cell(50,6,': '.$nama ,0,0,'L',0);
+		$this->Ln();
+		$this->setFont('Arial','B',10);
+		$this->cell(40,6,'Tanggal' ,0,0,'L',1);
+		$this->cell(50,6,': '.$tgl_now ,0,0,'L',0);
+		$this->Ln(8);
+	 //  $this->setFont('Arial','B',10);
+		// $this->cell(60,6,'' ,0,0,'R',1);
+		// $this->cell(100,6,$data[0]['NO_BUKTI_CETAK'] ,0,0,'R',0);
+	 //    $this->Ln();
+		$this->Ln();
+		//Tahun
+		$this->setFont('Arial','B',9);
+		$this->cell(35,7,'NOP' ,1,0,'C',1);
+		$this->cell(45,7,'Nama Wajib Pajak' ,1,0,'C',1);
+		$this->cell(20,7,'Tahun' ,1,0,'C',1);
+		$this->cell(30,7,'Jumlah uang' ,1,0,'C',1);
+		$this->cell(35,7,'Kelurahan' ,1,0,'C',1);
+		$this->cell(25,7,'No SSPD' ,1,1,'C',1);
+		$this->setFont('Arial','B',6);
+		$this->cell(35,5,'1' ,1,0,'C',1);
+		$this->cell(45,5,'2' ,1,0,'C',1);
+		$this->cell(20,5,'3' ,1,0,'C',1);
+		$this->cell(30,5,'4' ,1,0,'C',1);
+		$this->cell(35,5,'5' ,1,0,'C',1);
+		$this->cell(25,5,'6' ,1,1,'C',1);
+		$jumlah=0;
+		foreach ($data as $d) {
+			$jumlah=$jumlah+$d['JML_SPPT_YG_DIBAYAR'];
+			<<<<<<< HEAD
+			$this->setFont('Arial','',7);
+			$this->cell(30,7,$d['KD_PROPINSI'].$d['KD_DATI2'].$d['KD_KECAMATAN'].$d['KD_KELURAHAN'].$d['KD_BLOK'].$d['NO_URUT'].$d['KD_JNS_OP'] ,1,0,'C',1);
+			$this->cell(60,7,$d['NAMA_WP'] ,1,0,'C',1);
+			$this->cell(25,7,$d['THN_PAJAK_SPPT'] ,1,0,'C',1);
+			$this->cell(35,7,rupiah($d['JML_SPPT_YG_DIBAYAR']) ,1,0,'C',1);
+			$this->cell(45,7,$d['NM_KELURAHAN'] ,1,1,'C',1);
+			=======
+			$this->setFont('Arial','',8);
+			$this->cell(35,8,$d['KD_PROPINSI'].$d['KD_DATI2'].$d['KD_KECAMATAN'].$d['KD_KELURAHAN'].$d['KD_BLOK'].$d['NO_URUT'].$d['KD_JNS_OP'] ,1,0,'C',1);
+			$this->cell(45,8,$d['NAMA_WP'] ,1,0,'C',1);
+			$this->cell(20,8,$d['THN_PAJAK_SPPT'] ,1,0,'C',1);
+			$this->cell(30,8,rupiah($d['JML_SPPT_YG_DIBAYAR']) ,1,0,'C',1);
+			$this->cell(35,8,$d['NM_KELURAHAN'] ,1,0,'C',1);
+			if ($d['NO_FISIK']>0) {
+				$this->cell(25,7,$d['NO_FISIK'] ,1,1,'R',1);
+			} else {
+				$this->cell(25,7,'' ,1,1,'R',1);
+			}
+			>>>>>>> b2a66988181193bf57cabda6462cc66966ece7ae
+		}
+		//Tahun
+		$this->setFont('Arial','B',9);
+		$this->cell(100,7,'Total Penerimaan' ,1,0,'C',1);
+		$this->cell(30,7,rupiah($jumlah) ,1,0,'C',1);
+		$this->cell(60,7,'' ,1,1,'C',1);
+		$this->setFont('Arial','B',9);
+		$this->multicell(190,10,"(".terbilang($jumlah) .")"  ,1,1,'C',1);
+		$this->Ln();
+		if($this->GetY()<=160){
+			$this->tandatangan();
+		}else{
+			$this->AddPage();
+			$this->tandatangan();
+		}
+	}
+	// function Footer()
+	// {
+	// 	$this->tandatangan();
+	// }
+	function tandatangan(){
+		$tgl_now=date('d-m-Y');
+		$this->Ln();
+		$this->setFont('Arial','',9);
+		$this->cell(110,5,"",0,0,'C',0);
+		$this->cell(110,5,'Kediri, '.$tgl_now,0,1,'C',0);
+		$this->cell(50,5,"Pemungut PBB",0,0,'C',0);
+		$this->cell(80,5,'Pejabat Validasi',0,0,'C',0);
+		$this->cell(70,5,'Petugas Bank',0,1,'C',0);
+			//$this->line(120, 80, 88, 80);
+		$this->setFont('Arial','',9);
+		$this->cell(50,5,"",0,0,'C',0);
+		$this->cell(80,5,"",0,0,'C',0);
+		$this->cell(70,5,"Penerima Setoran",0,1,'C',0);
+			//$this->line(195, 80, 160, 80);
+		$this->setFont('Arial','BU',9);
+		$this->cell(155,5,"",0,1,'C',0);
+		$this->cell(155,5,"",0,0,'C',0);
+		$this->cell(155,5,"",0,1,'C',0);
+		$this->cell(155,5,"",0,0,'C',0);
+		$this->cell(155,5,"",0,1,'C',0);
+		$this->cell(155,5,"",0,0,'C',0);
+		$this->cell(155,5,"",0,1,'C',0);
+			//$this->line(50, 80, 25, 80);
+		$this->cell(50,5,"_____________","",0,'C',0);
+		$this->cell(80,5,"_____________",0,0,'C',0);
+		$this->cell(70,5,"_____________","",1,'C',0);
+		<<<<<<< HEAD
+		=======
+		>>>>>>> b2a66988181193bf57cabda6462cc66966ece7ae
+	}
+}
+$pdf = new PDF("P","mm","A4");
+$pdf->AliasNbPages();
+$pdf->AddPage();
+$pdf->Content($data,$nip,$nama);
+$pdf->SetTitle("Laporan SPPT Per Wajib Pajak ");
+$pdf->Output('assets/test.pdf',"I");

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chickenkids.simparfum.activityPrint.CetakActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
+        app:subtitle="Cetak Struk"
+        app:titleTextColor="@android:color/white"
+        app:subtitleTextColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Small"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/tvHasil"
+        android:gravity="center_horizontal"
+        android:text="Cetak Struk Penjualan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/marginGlobal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Scan"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="4dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cetak Struk"/>
+
+        <Button
+            android:id="@+id/mPrint"
+            android:visibility="gone"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="4dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Print"/>
+
+        <Button
+            android:id="@+id/dis"
+            android:visibility="gone"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="4dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Disable"/>
+    </LinearLayout>
+</RelativeLayout>
